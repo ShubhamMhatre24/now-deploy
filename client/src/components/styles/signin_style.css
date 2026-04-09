@@ -1,0 +1,157 @@
+#user-viewprofile-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#viewprofile-login{
+    width: 500px;
+    height: 350px;
+    background-color: #f1f0f0;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.viewprofile-login-input-style{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+#viewprofile-btn{
+    width: 120px;
+    height: 35px;
+    background-color: #5cb85c;
+    font-size: 16px;
+}
+#viewprofile-btn:hover{
+    cursor: pointer;
+     background-color: #9af39a;
+
+}
+
+
+
+
+/* ---------> User profile style <-------------- */
+
+#userprofile{
+    width: 100%;
+    max-height: auto;
+   /* border: 1px solid black;*/
+   /* margin-left: 400px;
+    padding: 0 50px;*/
+}
+#userprofile-header{
+    width: 130px;
+    height: 25px;
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: space-between;
+}
+#userprofile-info{
+    width: 90%;
+    height: 100px;
+    padding: 30px 76px;
+   /* border: 1px solid black;*/
+    /*padding: 20px;*/
+    display: flex;
+    justify-content: space-between;
+   /* background-color: burlywood;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;*/
+    background-image: url(header-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.userprofile-logout{
+    width: 100px;
+    height: 50px;
+    background-color:#d9534f;
+    color: white;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#user-ads{
+    width: 90%;
+    max-height: auto;
+     padding: 30px 76px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.user-ads-style{
+    padding: 10px 20px;
+    max-width: 400px;
+    max-height: auto;
+    border: 1px solid black;
+    margin-left: 0px;
+}
+#profile-to-productads-section{
+    
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.line-hover{
+    width: auto;
+    height: 3px;
+}
+.hover-line-effect:hover{
+    cursor: pointer;
+}
+.hover-line-effect:hover .line-hover{
+    background-color: #5cb85c;
+}
+
+
+
+
+
+
+
+
+
+/* ---------------------->  Edit posted ads style   <------------------ */
+
+#edit-ads-container{
+    width:600px;
+    height: 900px;
+    /*border: 1px solid black;*/
+    margin-left: 450px;
+    padding: 0px 20px;
+}
+#edit-post-info{
+    width: 600px;
+    height: 740px;
+    border: 1px solid black;
+    background-color: #f1f0f0;
+}
+.edit-ads-style{
+    width: 300px;
+    height: 35px;
+    padding: 0 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#edit-ad-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    background-color:#5cb85c;
+
+}
+#edit-ad-btn:hover{
+    cursor: pointer;
+    background-color: #9af39a;
+}

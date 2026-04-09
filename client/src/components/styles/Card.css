@@ -1,0 +1,78 @@
+.card-container{
+    width: 1500px;
+    height: 300px;
+   /* border:1px solid black;*/
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    justify-content: space-evenly;
+    grid-row-gap: 30px;
+}
+
+.card-item
+{
+    min-height: 300px;
+    max-height: 400px;
+    overflow:hidden;
+    width: 250px;
+    /*background-color: aqua;*/
+    color: black;
+    border:1px solid black;
+    border-radius:8px;
+    padding:5px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease-in;
+
+     /*box-sizing: border-box;
+
+      overflow-y: auto;      
+      overflow-x: hidden;    
+      white-space: normal;
+      scrollbar-width: thin;*/
+      
+}
+.card-itemr::-webkit-scrollbar {
+  width: 10px;   /* scrollbar width */
+  
+}
+
+.card-item::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border: 1px solid black;
+  
+}
+.card-item:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+#verified-btn-style{
+    width: 60px;
+    text-align: center;
+    border-radius: 3px;
+    background-color: rgb(230, 188, 82);
+    font-size: 13px;
+}
+
+.card-image
+{
+    height: 170px;
+    width: 250px;
+    border-radius: 5px;
+   
+}
+#card-info-div{
+    padding:5px;
+}
+
+/* --------------> Admin card style <----------------  */
+.adminview-card-style{
+    width: 900px;
+    padding: 20px 0px;
+    
+    display: grid;
+    grid-template-columns: 265px 265px 265px 265px 265px;
+    
+    grid-column-gap: 15px;
+    grid-row-gap: 50px;
+
+    
+}

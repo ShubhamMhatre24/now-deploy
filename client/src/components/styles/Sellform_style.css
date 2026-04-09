@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#sell-page-nav{
+    width: 100%;
+    height: 40px;
+    background-color:beige;
+    padding: 0;
+   /* padding:15px;*/
+    padding-top:5px;
+}
+#sellpage-arrow-div{
+    width: 35px;
+    height: 30px;
+    /*border: 1px solid black;*/
+    margin-left:50px;
+}
+.arrow{
+    font-size: 35px;
+    color: black;
+}
+#sellform-info-div{
+    width: 700px;
+    height: 780px;
+    /*background-color: #f1f0f0;*/
+    margin-left: 400px;
+    padding:0 20px;
+}
+#sellform-product-info{
+    width: 700px;
+    height: 350px;
+    background-color: #f1f0f0;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.2);
+    
+    border-radius: 10px;
+    
+
+}
+.sellform-inputs-style{
+    width: 220px;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding:5px 10px ;
+    outline: none;
+}
+.sellform-product_dec{
+    width: 500px;
+    height: 50px;
+    border-width: 2px;
+    font-size: 17px;
+    padding: 0px 10px;
+}
+#sellform-user-info-div{
+     width: 700px;
+    height: 350px;
+    background-color: #f1f0f0;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.2);
+    
+    border-radius: 10px;
+}
+.sellform-loc-link{
+    width: 400px;
+    height: 30px;
+    padding: 0px 10px;
+}
+#post-btn{
+    width: 100px;
+    height: 40px;
+    background-color: burlywood;
+    margin-left: 700px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+#post-btn:hover{
+    cursor: pointer;
+    background-color: rgb(246, 217, 180);
+}

@@ -1,0 +1,176 @@
+#admin-login-container{
+    width: 350px;
+    height: 250px;
+     background-color: #f1f0f0;
+     border-radius: 10px;
+     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+   /* box-shadow: 20px 20px 30px rgba(0,0,0,0.2);*/
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+.admin-login-password{
+    width: 200px;
+    height: 30px;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+#admin-login-btn{
+    width: 100px;
+    height: 30px;
+    background-color:#d9534f;
+    color: white;
+    font-size: 16px;
+}
+#admin-login-btn:hover{
+    cursor: pointer;
+    background-color: #ed8885;
+    
+}
+.admin-login-cancel-btn{
+    height: 20px;
+    font-size: 18px;
+}
+.admin-login-cancel-btn:hover{
+    cursor: pointer;
+}
+
+
+/*  -------------> Admin View style <--------------------  */
+
+#adminview-container{
+    width: 100%;
+    height: auto;
+}
+#adminview-header{
+    width: 130px;
+    height: 25px;
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: space-between;
+}
+.adminview-card{
+    width: 1000px;
+    height: 900px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    
+}
+#adminview-profile-header{
+    width: 90%;
+    height: 100px;
+     padding: 30px 76px;
+      background-image: url(header-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+#admin-logo{
+    width: 105px;
+    height: 105px;
+    border: 2px solid rgb(251, 245, 245);
+    text-align: center;
+    border-radius: 50%;
+  color: white;
+}
+.adminview-card-div{
+    width: 100%;
+    min-height: auto;
+    height: 700px;
+    border: 1px solid black;
+    overflow-y:auto;
+    overflow-x: hidden;
+    border-radius: 10px;
+    background-color: #f1f0f0;
+}
+
+
+
+
+
+
+/*  ----------------> Admin Check Style < ------------------  */
+
+.admin-container {
+  max-width: auto;
+  margin: 40px auto;
+  padding: 20px 30px;
+  /*background: #ffffff;*/
+  background-color: #f1f0f0;
+  border-radius: 12px;
+  /*box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);*/
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.admin-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.admin-image {
+  display: block;
+  max-width: auto;
+  height: auto;
+  margin: 0 auto 20px auto;
+  border-radius: 10px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.admin-details h2 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 8px 0;
+  color: #444;
+}
+
+.admin-details a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.admin-details a:hover {
+  text-decoration: underline;
+}
+
+.admin-form {
+  margin-top: 25px;
+}
+
+.admin-form h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.admin-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  outline: none;
+  font-size: 14px;
+}
+
+.admin-form input:focus {
+  border-color: #007bff;
+}
+
+.admin-form button {
+  background: #007bff;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.admin-form button:hover {
+  background: #0056b3;
+}
+
