@@ -22,7 +22,7 @@ let saveData=(e)=>{
   e.preventDefault();
   console.log(formData);
 
- axios.post('http://localhost:8020/api/secondlife/upload', formData)
+ axios.post('http://13.232.158.109:8020/api/secondlife/upload', formData)
 .then((res)=>{
     console.log("Enquiry Saved :",res.data);
     alert("Data Saved Sucessfully");
